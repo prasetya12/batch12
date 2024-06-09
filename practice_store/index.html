@@ -14,7 +14,21 @@
     />
   </head>
   <body>
-    <div id="list_products" class="grid grid-cols-4 gap-4 p-10">
+    <div class="p-4">
+      <input
+        class="border border-gray-600 pl-3 h-14 rounded-md"
+        placeholder="Search Product"
+        id="search_product"
+      />
+
+      <button class="bg-red-200 py-1 px-3 rounded-md" onclick="onSearch()">
+        Search
+      </button>
+    </div>
+    <div
+      id="list_products"
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 p-10"
+    >
       <div
         class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
       >
@@ -60,3 +74,4 @@
     </div>
   </body>
 </html>
+<script src="./main.js"></script>
