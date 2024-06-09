@@ -6,10 +6,13 @@
 // judulElm.style.color = 'red'
 // judulElm.style.backgroundColor = 'brown'
 
+//getElementByClassname
 // const menuElm = document.getElementsByClassName('menu')
 
 // menuElm[1].textContent = "Mie Ayam"
 
+
+//getElementsByTagName
 // const listMenuElm = document.getElementsByTagName('ul')
 // console.log()
 // console.log(listMenuElm)
